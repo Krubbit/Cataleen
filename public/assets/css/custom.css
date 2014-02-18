@@ -5900,6 +5900,7 @@ td.visible-print {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  border-radius: 3px !important;
   color: #ffffff;
   background-color: #f0ad4e;
   border-color: #eea236;
@@ -5995,4 +5996,16 @@ body {
 }
 .navbar-brand:hover {
   color: #ffd564 !important;
+}
+.btn {
+  border-radius: 3px !important;
+}
+.btn-yellow {
+  color: #4c4145;
+  background-color: #ffd564;
+  border-color: #ffc936;
+}
+.btn-yellow:hover {
+  background: #4c4145;
+  color: white;
 }

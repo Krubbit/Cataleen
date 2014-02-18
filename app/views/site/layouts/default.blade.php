@@ -56,20 +56,22 @@
 						<li {{ (Request::is('/peliculas') ? ' class="active"' : '') }}><a href="{{{ URL::to('') }}}">Peliculas</a></li>
 						<li {{ (Request::is('/series') ? ' class="active"' : '') }}><a href="{{{ URL::to('') }}}">Series</a></li>
 						<li {{ (Request::is('/usuarios') ? ' class="active"' : '') }}><a href="{{{ URL::to('') }}}">Usuarios</a></li>
+						<li  {{ (Request::is('/user/create') ? ' class="active"' : '') }}><a href="{{{ URL::to('user/create') }}}">Registro</a></li>
 					</ul>
 
                     <ul class="nav navbar-nav pull-right">
                         @if (Auth::check())
-                        @if (Auth::user()->hasRole('admin'))
-                        <li><a href="{{{ URL::to('admin') }}}">Admin Panel</a></li>
-                        @endif
+	                        @if (Auth::user()->hasRole('admin'))
+	                        <li><a href="{{{ URL::to('admin') }}}">Admin Panel</a></li>
+	                        @endif
                         <li><a href="{{{ URL::to('user') }}}">Logged in as {{{ Auth::user()->username }}}</a></li>
                         <li><a href="{{{ URL::to('user/logout') }}}">Logout</a></li>
-                        @else
-                        <li {{ (Request::is('user/login') ? ' class="active"' : '') }}><a href="{{{ URL::to('user/login') }}}">Login</a></li>
-                        <li {{ (Request::is('user/register') ? ' class="active"' : '') }}><a href="{{{ URL::to('user/create') }}}">{{{ Lang::get('site.sign_up') }}}</a></li>
                         @endif
                     </ul>
+                    @if(!Auth::check())
+                    <a class="btn btn-yellow navbar-btn navbar-right" href="{{{ URL::to('user/login') }}}">Login</a>
+                    
+                    @endif
 					<!-- ./ nav-collapse -->
 				</div>
 			</div>

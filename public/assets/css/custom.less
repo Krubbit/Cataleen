@@ -2,6 +2,8 @@
 @import "less/master.less";
 //Variables
 @yellow: #ffd564;
+@yellow-border: #ffc936;
+@dark: #4c4145;
 
 //css
 body{
@@ -27,5 +29,17 @@ body{
 	color:white !important;
 	&:hover{
 		color:@yellow !important;
+	}
+}
+.btn{
+	border-radius: 3px !important;
+}
+.btn-yellow{
+	color: @dark;
+	background-color: @yellow;
+	border-color: @yellow-border;
+	&:hover{
+		background:@dark;
+		color: white;
 	}
 }

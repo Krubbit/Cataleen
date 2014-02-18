@@ -1,51 +1,46 @@
-#Laravel 4 Bootstrap Starter Site
-`Version: 1.2.1 Stable` [![ProjectStatus](http://stillmaintained.com/andrew13/Laravel-4-Bootstrap-Starter-Site.png)](http://stillmaintained.com/andrew13/Laravel-4-Bootstrap-Starter-Site)
-[![Build Status](https://api.travis-ci.org/andrew13/Laravel-4-Bootstrap-Starter-Site.png)](https://travis-ci.org/andrew13/Laravel-4-Bootstrap-Starter-Site)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/andrew13/laravel-4-bootstrap-starter-site/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+#Cataleen movie manager
+`Version: 0.1 beta dev` 
 
-Laravel 4 Bootstrap Starter Site is a sample application for beginning development with Laravel 4.
+Proyecto creado por Krubbit y Chacho, con [Laravel](http://Laravel.com) y [Twitter Bootstrap 3](http://getbootstrap.com)
 
-It began as a fork of [laravel4-starter-kit](https://github.com/brunogaspar/laravel4-starter-kit) taking the starter kit changing the included modules and adding a few as well.
+Comenzo como un proyecto que ambos queriamos tener pero no teniamos el tiempo.
 
 
-## Features
+## ¿De que esta echo y que contiene?
 
 * Bootstrap 3.0.0
-* Custom Error Pages
-	* 403 for forbidden page accesses
-	* 404 for not found pages
-	* 500 for internal server errors
-* [Confide](#confide) for Authentication and Authorization
+* Errores de paginas personalizadas
+	* 403 for forbidden page accesses.
+	* 404 for not found pages.
+	* 500 for internal server errors.
+* Confide autenticación
 * Back-end
-	* User and Role management
-	* Manage blog posts and comments
-	* WYSIWYG editor for post creation and editing.
-    * DataTables dynamic table sorting and filtering.
+	* Administración de usuarios y permisos.
+	* Manejo de noticias y comentarios.
+	* WYSIWYG editor.
+    * DataTables.
     * Colorbox Lightbox jQuery modal popup.
 * Front-end
-	* User login, registration, forgot password
-	* User account area
-	* Simple Blog functionality
+	* Login de usuario, registro y recordar contraseña.
+	* Area de cuenta de usuario.
+	* Funcionalidad simple de noticias.
 * Packages included:
-	* [Confide](#confide)
-	* [Entrust](#entrust)
-	* [Ardent](#ardent)
-	* [Carbon](#carbon)
-	* [Basset](#basset)
-	* [Presenter](#presenter)
-	* [Generators](#generators)
+	* Confide
+	* Entrust
+	* Ardent
+	* Carbon
+	* Basset
+	* Presenter
+	* Generators
 
-## Issues
-See [github issue list](https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site/issues) for current list.
-
-## Wiki
-[Roadmap](https://github.com/andrew13/Laravel-4-Bootstrap-Starter-Site/wiki/Roadmap)
+## Problemas
+Visita [Lista de problemas de Github](https://github.com/Krubbit/Cataleen/issues).
 
 -----
 
-##Requirements
+##Requerimientos
 
-	PHP >= 5.4.0 (Entrust requires 5.4, this is an increase over Laravel's 5.3.7 requirement)
+	PHP >= 5.4.0 (Entrust necesita 5.4)
 	MCrypt PHP Extension
 
 ##How to install
