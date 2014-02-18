@@ -1,0 +1,31 @@
+// My custom less
+@import "less/master.less";
+//Variables
+@yellow: #ffd564;
+
+//css
+body{
+	font-family: 'Maven Pro' !important;
+}
+.navbar-inverse{
+    background:rgba(0,0,0,0.75);
+    .nav.navbar-nav{
+    	margin-left: 70px;
+   		li, li a{
+   			text-shadow:1px 1px 0px rgba(0,0,0,0.5);
+   			font-size: 12px;
+   		}
+    	li.active , li.active a{
+    		background: rgba(0,0,0,0) !important;
+    		color:@yellow;
+    	}
+    }
+}
+.navbar-brand{
+	font-family: 'Pacifico', cursive !important; 
+	font-size: 24px;
+	color:white !important;
+	&:hover{
+		color:@yellow !important;
+	}
+}
