@@ -2143,8 +2143,8 @@ input[type="button"].btn-block {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../../fonts/bootstrap/glyphicons-halflings-regular.eot');
-  src: url('../../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot');
+  src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -5901,6 +5901,8 @@ td.visible-print {
   -o-user-select: none;
   user-select: none;
   border-radius: 3px !important;
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
   color: #ffffff;
   background-color: #f0ad4e;
   border-color: #eea236;
@@ -5973,6 +5975,14 @@ fieldset[disabled] .btn-cancel.active {
 body {
   font-family: 'Maven Pro' !important;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Maven Pro' !important;
+}
 .navbar-inverse {
   background: rgba(0, 0, 0, 0.75);
 }
@@ -5999,6 +6009,8 @@ body {
 }
 .btn {
   border-radius: 3px !important;
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.4);
 }
 .btn-yellow {
   color: #4c4145;
@@ -6008,4 +6020,32 @@ body {
 .btn-yellow:hover {
   background: #4c4145;
   color: white;
+}
+.btn-red {
+  color: white;
+  background-color: #fe505a;
+  border-color: #f42a36;
+  font-weight: bold;
+}
+.btn-red:hover {
+  color: #4c4145;
+  background-color: #ffd564;
+  border-color: #e8aa00;
+}
+.jumbotron-index {
+  background: url(http://th07.deviantart.net/fs71/PRE/i/2013/234/5/9/at_the_mountains_of_madness_3_howard__lovecraft_by_ivany86-d6egxq7.png);
+  background-size: 100%;
+  background-position: 50%;
+}
+.jumbotron-index h1 {
+  color: white;
+  text-shadow: 0 0 15px #000000;
+  font-weight: bold;
+}
+.jumbotron-index p {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  max-width: 70%;
 }
