@@ -5983,6 +5983,9 @@ h5,
 h6 {
   font-family: 'Maven Pro' !important;
 }
+.yellow {
+  color: #ffd564 !important;
+}
 .navbar-inverse {
   background: rgba(0, 0, 0, 0.75);
 }
@@ -6033,9 +6036,10 @@ h6 {
   border-color: #e8aa00;
 }
 .jumbotron-index {
-  background: url(http://th07.deviantart.net/fs71/PRE/i/2013/234/5/9/at_the_mountains_of_madness_3_howard__lovecraft_by_ivany86-d6egxq7.png);
+  background: url(http://www.aceshowbiz.com/images/still/the-great-gatsby-picture07.jpg);
   background-size: 100%;
   background-position: 50%;
+  height: 400px;
 }
 .jumbotron-index h1 {
   color: white;
@@ -6048,4 +6052,12 @@ h6 {
   color: white;
   font-size: 16px;
   max-width: 70%;
+}
+.leer-mas {
+  color: #fe505a;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.leer-mas:hover {
+  color: #fe505a;
 }
